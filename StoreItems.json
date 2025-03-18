@@ -7141,6 +7141,12 @@
 		"defname": "HIDGun_M27IAR"
 	},
 	{
+		"abr": "m3greasegun",
+		"price": 433,
+		"category": "Ranged weapons",
+		"defname": "HIDGun_GreaseGun"
+	},
+	{
 		"abr": "m3specopsgeneration2",
 		"price": 542,
 		"category": "Ranged weapons",
@@ -13531,12 +13537,6 @@
 		"defname": "BS_CreateXenogerm"
 	},
 	{
-		"abr": "xeno-germlinemirroring",
-		"price": 1667,
-		"category": "Misc",
-		"defname": "BS_XenoCopy"
-	},
-	{
 		"abr": "xm8",
 		"price": 833,
 		"category": "Ranged weapons",
@@ -13627,11 +13627,953 @@
 		"defname": "MeleeWeapon_Zeushammer"
 	},
 	{
-		"abr": "zombrella",
-		"price": 3333,
+		"abr": "amorphousrug(1x1)",
+		"price": 28,
+		"category": "Furniture",
+		"defname": "Amorphous_1x1Rug"
+	},
+	{
+		"abr": "amorphousrug(1x2)",
+		"price": 50,
+		"category": "Furniture",
+		"defname": "Amorphous_1x2Rug"
+	},
+	{
+		"abr": "amorphousrug(2x2)",
+		"price": 100,
+		"category": "Furniture",
+		"defname": "Amorphous_2x2Rug"
+	},
+	{
+		"abr": "amorphousrug(2x3)",
+		"price": 150,
+		"category": "Furniture",
+		"defname": "Amorphous_2x3Rug"
+	},
+	{
+		"abr": "amorphousrug(3x3)",
+		"price": 226,
+		"category": "Furniture",
+		"defname": "Amorphous_3x3Rug"
+	},
+	{
+		"abr": "amorphousrug(3x4)",
+		"price": 301,
+		"category": "Furniture",
+		"defname": "Amorphous_3x4Rug"
+	},
+	{
+		"abr": "amorphousrug(4x4)",
+		"price": 400,
+		"category": "Furniture",
+		"defname": "Amorphous_4x4Rug"
+	},
+	{
+		"abr": "brokensword",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicBrokenSword"
+	},
+	{
+		"abr": "candlesinhorns",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicCandles"
+	},
+	{
+		"abr": "comb",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicComb"
+	},
+	{
+		"abr": "crashedskull",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicCrashedSkull"
+	},
+	{
+		"abr": "curlyhorn",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicInertCurlyHorn"
+	},
+	{
+		"abr": "decoration",
+		"price": 70,
+		"category": "Furniture",
+		"defname": "Decoration"
+	},
+	{
+		"abr": "deerhorn",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicDeerHorn"
+	},
+	{
+		"abr": "draconicslab(broad)",
+		"price": 508,
+		"category": "Furniture",
+		"defname": "DraconicSlab_Broad"
+	},
+	{
+		"abr": "draconicslab(medium)",
+		"price": 342,
+		"category": "Furniture",
+		"defname": "DraconicSlab_Medium"
+	},
+	{
+		"abr": "dragonpaw",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicInertDragonPaw"
+	},
+	{
+		"abr": "dragonskull",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicInertDragonSkull"
+	},
+	{
+		"abr": "dragonstatue",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicInertDragonStatue"
+	},
+	{
+		"abr": "fang",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicInertFang"
+	},
+	{
+		"abr": "fangamulet",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicInertFangAmulet"
+	},
+	{
+		"abr": "haysunhat",
+		"price": 21,
+		"category": "Headgear",
+		"defname": "DV_Apparel_HaySunhat"
+	},
+	{
+		"abr": "lovethrallcapacityserum",
+		"price": 1250,
 		"category": "Misc",
-		"defname": "Zombrella"
-	}
+		"defname": "RS_LovethrallCapacitySerum"
+	},
+	{
+		"abr": "lyre",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicLyre"
+	},
+	{
+		"abr": "mug",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicVikingMug"
+	},
+	{
+		"abr": "norseslab(broad)",
+		"price": 508,
+		"category": "Furniture",
+		"defname": "NorseSlab_Broad"
+	},
+	{
+		"abr": "norseslab(medium)",
+		"price": 342,
+		"category": "Furniture",
+		"defname": "NorseSlab_Medium"
+	},
+	{
+		"abr": "rapier",
+		"price": 272,
+		"category": "Melee weapons",
+		"defname": "HBX_Rapier"
+	},
+	{
+		"abr": "scale",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicInertScale"
+	},
+	{
+		"abr": "scalespelt",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicInertScalesPelt"
+	},
+	{
+		"abr": "shipfrontpart",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicShipFrontPart"
+	},
+	{
+		"abr": "shippart",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicShipPart"
+	},
+	{
+		"abr": "slaveoutfit",
+		"price": 234,
+		"category": "Misc",
+		"defname": "RS_Apparel_SlaveOutfit"
+	},
+	{
+		"abr": "straithorn",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicInertStraitHorn"
+	},
+	{
+		"abr": "thorhammer",
+		"price": 833,
+		"category": "Inert relics",
+		"defname": "RelicThorHammer"
+	},
+	{
+		"abr": "anchovy",
+		"price": 0,
+		"category": "Raw fish",
+		"defname": "VCEF_RawAnchovy"
+	},
+	{
+		"abr": "angelfish",
+		"price": 2,
+		"category": "Raw fish",
+		"defname": "VCEF_RawAngelfish"
+	},
+	{
+		"abr": "anglerfish",
+		"price": 2,
+		"category": "Raw fish",
+		"defname": "VCEF_RawAnglerfish"
+	},
+	{
+		"abr": "aquaponicsbasin",
+		"price": 8825,
+		"category": "Production",
+		"defname": "VFEM_AquaponicsBasin"
+	},
+	{
+		"abr": "arapaima(adeptcatch)",
+		"price": 7,
+		"category": "Raw fish",
+		"defname": "VCEF_ArapaimaItem"
+	},
+	{
+		"abr": "automatedfishfarm(freshwater)",
+		"price": 10867,
+		"category": "Automation",
+		"defname": "PRF_T1_Aquaculture"
+	},
+	{
+		"abr": "automatedfishfarm(saltwater)",
+		"price": 12342,
+		"category": "Automation",
+		"defname": "PRF_T2_Aquaculture"
+	},
+	{
+		"abr": "bass",
+		"price": 2,
+		"category": "Raw fish",
+		"defname": "VCEF_RawBass"
+	},
+	{
+		"abr": "butterfish(adeptcatch)",
+		"price": 1,
+		"category": "Raw fish",
+		"defname": "VCEF_ButterFishItem"
+	},
+	{
+		"abr": "catfish",
+		"price": 4,
+		"category": "Raw fish",
+		"defname": "VCEF_RawCatfish"
+	},
+	{
+		"abr": "clownfish",
+		"price": 1,
+		"category": "Raw fish",
+		"defname": "VCEF_RawClownfish"
+	},
+	{
+		"abr": "cod",
+		"price": 3,
+		"category": "Raw fish",
+		"defname": "VCEF_RawCod"
+	},
+	{
+		"abr": "crayfish(adeptcatch)",
+		"price": 1,
+		"category": "Raw fish",
+		"defname": "VCEF_CrayfishItem"
+	},
+	{
+		"abr": "eel",
+		"price": 2,
+		"category": "Raw fish",
+		"defname": "VCEF_RawEel"
+	},
+	{
+		"abr": "fishfood",
+		"price": 2,
+		"category": "Foods",
+		"defname": "PRF_FishFood"
+	},
+	{
+		"abr": "flyingfish(adeptcatch)",
+		"price": 4,
+		"category": "Raw fish",
+		"defname": "VCEF_FlyingFishItem"
+	},
+	{
+		"abr": "freshwaterstingray(adeptcatch)",
+		"price": 4,
+		"category": "Raw fish",
+		"defname": "VCEF_FreshwaterStingrayItem"
+	},
+	{
+		"abr": "goldfish",
+		"price": 3,
+		"category": "Raw fish",
+		"defname": "VCEF_RawGoldfish"
+	},
+	{
+		"abr": "guppy",
+		"price": 0,
+		"category": "Raw fish",
+		"defname": "VCEF_RawGuppy"
+	},
+	{
+		"abr": "haddock",
+		"price": 2,
+		"category": "Raw fish",
+		"defname": "VCEF_RawHaddock"
+	},
+	{
+		"abr": "halibut",
+		"price": 3,
+		"category": "Raw fish",
+		"defname": "VCEF_RawHalibut"
+	},
+	{
+		"abr": "herring",
+		"price": 1,
+		"category": "Raw fish",
+		"defname": "VCEF_RawHerring"
+	},
+	{
+		"abr": "koi",
+		"price": 4,
+		"category": "Raw fish",
+		"defname": "VCEF_RawKoi"
+	},
+	{
+		"abr": "largefishingtrap",
+		"price": 281,
+		"category": "Production",
+		"defname": "VME_LargeFishingTrap"
+	},
+	{
+		"abr": "lobster",
+		"price": 9,
+		"category": "Raw fish",
+		"defname": "VCEF_RawLobster"
+	},
+	{
+		"abr": "mackerel",
+		"price": 2,
+		"category": "Raw fish",
+		"defname": "VCEF_RawMackerel"
+	},
+	{
+		"abr": "mediumfishingtrap",
+		"price": 206,
+		"category": "Production",
+		"defname": "VME_MediumFishingTrap"
+	},
+	{
+		"abr": "minifishingstation",
+		"price": 3117,
+		"category": "Automation",
+		"defname": "PRF_MiniHelperFishing"
+	},
+	{
+		"abr": "minnow",
+		"price": 0,
+		"category": "Raw fish",
+		"defname": "VCEF_RawMinnow"
+	},
+	{
+		"abr": "perch",
+		"price": 2,
+		"category": "Raw fish",
+		"defname": "VCEF_RawPerch"
+	},
+	{
+		"abr": "piranha",
+		"price": 2,
+		"category": "Raw fish",
+		"defname": "VCEF_RawPiranha"
+	},
+	{
+		"abr": "pufferfish",
+		"price": 2,
+		"category": "Raw fish",
+		"defname": "VCEF_RawPufferfish"
+	},
+	{
+		"abr": "salmon",
+		"price": 9,
+		"category": "Raw fish",
+		"defname": "VCEF_RawSalmon"
+	},
+	{
+		"abr": "shortfinmakoshark(adeptcatch)",
+		"price": 7,
+		"category": "Raw fish",
+		"defname": "VCEF_ShortfinMakoSharkItem"
+	},
+	{
+		"abr": "smallfishingtrap",
+		"price": 131,
+		"category": "Production",
+		"defname": "VME_SmallFishingTrap"
+	},
+	{
+		"abr": "sprat",
+		"price": 0,
+		"category": "Raw fish",
+		"defname": "VCEF_RawSprat"
+	},
+	{
+		"abr": "swordfish",
+		"price": 9,
+		"category": "Raw fish",
+		"defname": "VCEF_RawSwordfish"
+	},
+	{
+		"abr": "tacklebox",
+		"price": 18,
+		"category": "Utility",
+		"defname": "VME_TackleBox"
+	},
+	{
+		"abr": "trout",
+		"price": 2,
+		"category": "Raw fish",
+		"defname": "VCEF_RawTrout"
+	},
+	{
+		"abr": "agavenectar",
+		"price": 2,
+		"category": "Condiments",
+		"defname": "VCE_AgaveNectar"
+	},
+	{
+		"abr": "airfryer",
+		"price": 533,
+		"category": "Production",
+		"defname": "CE_AirFryer"
+	},
+	{
+		"abr": "archotechbio-unit",
+		"price": 25000,
+		"category": "Artifacts",
+		"defname": "ArchoGenes_BioUnit"
+	},
+	{
+		"abr": "aurumfuel",
+		"price": 8,
+		"category": "Foods",
+		"defname": "BTEMy_AurumFuel"
+	},
+	{
+		"abr": "aurumidol",
+		"price": 1667,
+		"category": "Misc",
+		"defname": "BTEMy_AurumIdol"
+	},
+	{
+		"abr": "cannedeggs",
+		"price": 6,
+		"category": "Meals",
+		"defname": "VCE_CannedAP"
+	},
+	{
+		"abr": "cannedfish",
+		"price": 3,
+		"category": "Meals",
+		"defname": "VCE_CannedFish"
+	},
+	{
+		"abr": "cannedfruit",
+		"price": 2,
+		"category": "Meals",
+		"defname": "VCE_CannedFruit"
+	},
+	{
+		"abr": "cannedmeat",
+		"price": 4,
+		"category": "Meals",
+		"defname": "VCE_CannedMeat"
+	},
+	{
+		"abr": "cannedproduce",
+		"price": 2,
+		"category": "Meals",
+		"defname": "VCE_CannedProduce"
+	},
+	{
+		"abr": "cannery",
+		"price": 3692,
+		"category": "Production",
+		"defname": "VFEM_ProvisionsPackagingFactory_Cannery"
+	},
+	{
+		"abr": "canningmachine",
+		"price": 383,
+		"category": "Production",
+		"defname": "VCE_CanningMachine"
+	},
+	{
+		"abr": "cheese",
+		"price": 17,
+		"category": "Meals",
+		"defname": "VCE_Cheese"
+	},
+	{
+		"abr": "cheesepress",
+		"price": 95,
+		"category": "Production",
+		"defname": "VCE_CheesePress"
+	},
+	{
+		"abr": "chemfueldeepfryer",
+		"price": 323,
+		"category": "Production",
+		"defname": "CE_ChemfuelDeepFrier"
+	},
+	{
+		"abr": "chemfuelpot",
+		"price": 216,
+		"category": "Production",
+		"defname": "CE_ChemfuelPot"
+	},
+	{
+		"abr": "chocolatesyrup",
+		"price": 6,
+		"category": "Condiments",
+		"defname": "VCE_ChocolateSyrup"
+	},
+	{
+		"abr": "condimentpreptable",
+		"price": 259,
+		"category": "Production",
+		"defname": "VCE_CondimentPrepTable"
+	},
+	{
+		"abr": "deepfriedfish",
+		"price": 12,
+		"category": "Meals",
+		"defname": "VCE_DeepFriedFish"
+	},
+	{
+		"abr": "deepfriedmeat",
+		"price": 12,
+		"category": "Meals",
+		"defname": "VCE_DeepFriedBigMeat"
+	},
+	{
+		"abr": "deepfriedvegetables",
+		"price": 12,
+		"category": "Meals",
+		"defname": "VCE_DeepFriedVegetables"
+	},
+	{
+		"abr": "deepfryer",
+		"price": 323,
+		"category": "Production",
+		"defname": "VCE_DeepFrier"
+	},
+	{
+		"abr": "digestibleresurrectornanites",
+		"price": 2500,
+		"category": "Condiments",
+		"defname": "VCE_DigestibleResurrectorNanites"
+	},
+	{
+		"abr": "dyedrain",
+		"price": 190,
+		"category": "Furniture",
+		"defname": "VCEUE_DyeDrain"
+	},
+	{
+		"abr": "dyetap",
+		"price": 190,
+		"category": "Furniture",
+		"defname": "VCEUE_DyeTap"
+	},
+	{
+		"abr": "electricpot",
+		"price": 216,
+		"category": "Production",
+		"defname": "VCE_ElectricPot"
+	},
+	{
+		"abr": "finebake",
+		"price": 33,
+		"category": "Meals",
+		"defname": "VCE_FineBake"
+	},
+	{
+		"abr": "finedessert",
+		"price": 33,
+		"category": "Meals",
+		"defname": "VCE_FineDessert"
+	},
+	{
+		"abr": "finegrill",
+		"price": 33,
+		"category": "Meals",
+		"defname": "VCE_FineGrill"
+	},
+	{
+		"abr": "finesoup",
+		"price": 33,
+		"category": "Meals",
+		"defname": "VCE_CookedSoupFine"
+	},
+	{
+		"abr": "finestew",
+		"price": 30,
+		"category": "Meals",
+		"defname": "VCE_CookedStewFine"
+	},
+	{
+		"abr": "fishnet",
+		"price": 167,
+		"category": "Production",
+		"defname": "WFFT_FishNet"
+	},
+	{
+		"abr": "fishtrap",
+		"price": 100,
+		"category": "Production",
+		"defname": "WFFT_FishTrap"
+	},
+	{
+		"abr": "flour",
+		"price": 3,
+		"category": "Plant matter",
+		"defname": "VCE_Flour"
+	},
+	{
+		"abr": "gourmetbake",
+		"price": 117,
+		"category": "Meals",
+		"defname": "VCE_GourmetBake"
+	},
+	{
+		"abr": "gourmetdessert",
+		"price": 125,
+		"category": "Meals",
+		"defname": "VCE_GourmetDessert"
+	},
+	{
+		"abr": "gourmetgrill",
+		"price": 125,
+		"category": "Meals",
+		"defname": "VCE_GourmetGrill"
+	},
+	{
+		"abr": "gourmetmeal",
+		"price": 117,
+		"category": "Meals",
+		"defname": "VCE_MealGourmet"
+	},
+	{
+		"abr": "gourmetsoup",
+		"price": 117,
+		"category": "Meals",
+		"defname": "VCE_CookedSoupGourmet"
+	},
+	{
+		"abr": "grill",
+		"price": 282,
+		"category": "Production",
+		"defname": "VCE_Grill"
+	},
+	{
+		"abr": "grill",
+		"price": 319,
+		"category": "Production",
+		"defname": "CE_ChemfuelGrill"
+	},
+	{
+		"abr": "healthyfriedmeat",
+		"price": 12,
+		"category": "Meals",
+		"defname": "CE_DeepFriedBigMeatNoBadHediff"
+	},
+	{
+		"abr": "healthyfriedvegetables",
+		"price": 12,
+		"category": "Meals",
+		"defname": "CE_DeepFriedVegetablesNoBadHediff"
+	},
+	{
+		"abr": "hotsauce",
+		"price": 2,
+		"category": "Condiments",
+		"defname": "VCE_HotSauce"
+	},
+	{
+		"abr": "industrialcheesepress",
+		"price": 4558,
+		"category": "Production",
+		"defname": "VFEM_IndustrialCheesePress"
+	},
+	{
+		"abr": "industrialsoupvat",
+		"price": 3692,
+		"category": "Production",
+		"defname": "VFEM_IndustrialSoupVat"
+	},
+	{
+		"abr": "insectjellypreserves",
+		"price": 15,
+		"category": "Condiments",
+		"defname": "VCE_InsectJellyPreserves"
+	},
+	{
+		"abr": "ketchup",
+		"price": 2,
+		"category": "Condiments",
+		"defname": "VCE_Ketchup"
+	},
+	{
+		"abr": "lavishbake",
+		"price": 67,
+		"category": "Meals",
+		"defname": "VCE_LavishBake"
+	},
+	{
+		"abr": "lavishdessert",
+		"price": 67,
+		"category": "Meals",
+		"defname": "VCE_LavishDessert"
+	},
+	{
+		"abr": "lavishgrill",
+		"price": 67,
+		"category": "Meals",
+		"defname": "VCE_LavishGrill"
+	},
+	{
+		"abr": "lavishsoup",
+		"price": 67,
+		"category": "Meals",
+		"defname": "VCE_CookedSoupLavish"
+	},
+	{
+		"abr": "lavishstew",
+		"price": 63,
+		"category": "Meals",
+		"defname": "VCE_CookedStewLavish"
+	},
+	{
+		"abr": "mayo",
+		"price": 6,
+		"category": "Condiments",
+		"defname": "VCE_Mayo"
+	},
+	{
+		"abr": "neutroaminedrain",
+		"price": 100,
+		"category": "Furniture",
+		"defname": "VCEUE_NeutroamineDrain"
+	},
+	{
+		"abr": "neutroaminetap",
+		"price": 100,
+		"category": "Furniture",
+		"defname": "VCEUE_NeutroamineTap"
+	},
+	{
+		"abr": "oats",
+		"price": 2,
+		"category": "Vegetarian",
+		"defname": "VCE_RawOats"
+	},
+	{
+		"abr": "rawplasteel",
+		"price": 8,
+		"category": "Raw resources",
+		"defname": "VCEUE_RawPlasteel"
+	},
+	{
+		"abr": "reveredmote",
+		"price": 8,
+		"category": "Foods",
+		"defname": "BTEMy_ReverenceFuel"
+	},
+	{
+		"abr": "reveredpsylinker",
+		"price": 4333,
+		"category": "Archotech",
+		"defname": "BTEMy_ReveredPsylinker"
+	},
+	{
+		"abr": "ruinedfinegrill",
+		"price": 30,
+		"category": "Meals",
+		"defname": "VCE_RuinedFineGrill"
+	},
+	{
+		"abr": "ruinedgourmetgrill",
+		"price": 100,
+		"category": "Meals",
+		"defname": "VCE_RuinedGourmetGrill"
+	},
+	{
+		"abr": "ruinedlavishgrill",
+		"price": 58,
+		"category": "Meals",
+		"defname": "VCE_RuinedLavishGrill"
+	},
+	{
+		"abr": "ruinedsimplegrill",
+		"price": 23,
+		"category": "Meals",
+		"defname": "VCE_RuinedSimpleGrill"
+	},
+	{
+		"abr": "salt",
+		"price": 3,
+		"category": "Condiments",
+		"defname": "VCE_Salt"
+	},
+	{
+		"abr": "simplebake",
+		"price": 25,
+		"category": "Meals",
+		"defname": "VCE_SimpleBake"
+	},
+	{
+		"abr": "simpledessert",
+		"price": 25,
+		"category": "Meals",
+		"defname": "VCE_SimpleDessert"
+	},
+	{
+		"abr": "simplegrill",
+		"price": 25,
+		"category": "Meals",
+		"defname": "VCE_SimpleGrill"
+	},
+	{
+		"abr": "simplesoup",
+		"price": 20,
+		"category": "Meals",
+		"defname": "VCE_CookedSoupSimple"
+	},
+	{
+		"abr": "simplestew",
+		"price": 23,
+		"category": "Meals",
+		"defname": "VCE_CookedStewSimple"
+	},
+	{
+		"abr": "smokeleafbutter",
+		"price": 12,
+		"category": "Condiments",
+		"defname": "VCE_SmokeleafButter"
+	},
+	{
+		"abr": "spices",
+		"price": 11,
+		"category": "Condiments",
+		"defname": "VCE_RawSpices"
+	},
+	{
+		"abr": "sugar",
+		"price": 20,
+		"category": "Condiments",
+		"defname": "VCE_RawSugar"
+	},
+	{
+		"abr": "toxicwastedrain",
+		"price": 190,
+		"category": "Furniture",
+		"defname": "VCEUE_ToxicWasteDrain"
+	},
+	{
+		"abr": "toxicwastetap",
+		"price": 190,
+		"category": "Furniture",
+		"defname": "VCEUE_ToxicWasteTap"
+	},
+	{
+		"abr": "tuna",
+		"price": 4,
+		"category": "Raw fish",
+		"defname": "VCEF_RawTuna"
+	},
+	{
+		"abr": "uncookedfinesoup",
+		"price": 227,
+		"category": "Uncooked soups",
+		"defname": "VCE_UncookedSoupFine"
+	},
+	{
+		"abr": "uncookedfinestew",
+		"price": 256,
+		"category": "Uncooked stew",
+		"defname": "VCE_UncookedStewFine"
+	},
+	{
+		"abr": "uncookedgourmetsoup",
+		"price": 742,
+		"category": "Uncooked soups",
+		"defname": "VCE_UncookedSoupGourmet"
+	},
+	{
+		"abr": "uncookedlavishsoup",
+		"price": 458,
+		"category": "Uncooked soups",
+		"defname": "VCE_UncookedSoupLavish"
+	},
+	{
+		"abr": "uncookedlavishstew",
+		"price": 508,
+		"category": "Uncooked stew",
+		"defname": "VCE_UncookedStewLavish"
+	},
+	{
+		"abr": "uncookedsimplesoup",
+		"price": 161,
+		"category": "Uncooked soups",
+		"defname": "VCE_UncookedSoupSimple"
+	},
+	{
+		"abr": "uncookedsimplestew",
+		"price": 182,
+		"category": "Uncooked stew",
+		"defname": "VCE_UncookedStewSimple"
+	},
+	{
+		"abr": "unrefinedfibers",
+		"price": 17,
+		"category": "Raw resources",
+		"defname": "VCEUE_RawThread"
+	},
 	],
-	"total": 2273
+	"total": 2433
 }
